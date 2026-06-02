@@ -1,4 +1,4 @@
-module github.com/digitalocean/gta
+module github.com/algolia/gta
 
 go 1.25
 
