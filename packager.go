@@ -273,7 +273,7 @@ func dependencyGraph(cfg *packages.Config, patterns []string) (moduleNamesByDir 
 	}
 
 	if loadAllPackages {
-		patterns = []string{"..."}
+		patterns = []string{"./..."}
 	}
 
 	loadedPackages, err := packages.Load(cfg, patterns...)
